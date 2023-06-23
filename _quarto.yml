@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Methylation_DNA"
+  author: "Moha"
+  cover-image: images/logo.gif
+  #site-url: https://leo4luffy.github.io/Repo_TFM/
+  #repo-url: https://github.com/Leo4Luffy/Repo_TFM/tree/main/TFM_resultados
+  repo-branch: master
+  repo-actions: [edit]
+  chapters:
+    - index.qmd
+    - Met_ADN.qmd
+
+format:
+  html:
+    highlight-style: a11y-dark
+    theme: cosmo
+    #css: css/bloques.css
+    cover-image: images/logo.jpg
+    code-link: true
